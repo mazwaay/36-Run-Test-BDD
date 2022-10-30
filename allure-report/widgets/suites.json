@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"620c44753c67ece95770512c1ac56a86","name":"Test the search feature using the word bank","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"d1dd42226b5d5546cb7eb4fdddf9277f","name":"Test the search feature using the word \"login\"","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

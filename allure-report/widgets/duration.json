@@ -1,0 +1,1 @@
+[{"uid":"6e1adbe1756ac22a","name":"search feature with word \"login\"","time":{"start":1666982432451,"stop":1666982436035,"duration":3584},"status":"passed","severity":"normal"},{"uid":"6d515847e4b3f27c","name":"search feature with word bank","time":{"start":1667126668271,"stop":1667126677246,"duration":8975},"status":"failed","severity":"normal"}]

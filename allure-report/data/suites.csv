@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Oct 29 01:40:32 ICT 2022","Sat Oct 29 01:40:36 ICT 2022","3584","","Test the search feature using the word ""login""","","","","search feature with word ""login""",""
+"failed","Sun Oct 30 17:44:28 ICT 2022","Sun Oct 30 17:44:37 ICT 2022","8975","","Test the search feature using the word bank","","","","search feature with word bank",""
