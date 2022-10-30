@@ -2,30 +2,9 @@ class featurepages {
     
     elements = {
       searchTerm: () => cy.get("#searchTerm"),
-      passwordInput: () => cy.get("#password"),
-      loginBtn: () => cy.get("#login-button"),
-      errorMessage: () => cy.get('h2'),
+      assertTest: () => cy.get('h2').should('contain.text', 'Search Results:'),
       clickpage: () => cy.get("#searchTerm").should('be.visible').type("bank{enter}"),
     };
-  
-    typeUsername(username) {
-      this.elements.usernameInput().type(username);
-    }
-  
-    typePassword(password) {
-      this.elements.passwordInput().type(password);
-    }
-  
-    clickLogin() {
-      this.elements.loginBtn().click();
-    }
-  
-    submitLogin(username,password){
-      this.elements.usernameInput().type(username);
-      this.elements.passwordInput().type(password);
-      this.elements.loginBtn().click();
-    }
-
   }
   
   module.exports = new featurepages();
