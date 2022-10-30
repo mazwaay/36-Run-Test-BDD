@@ -32,7 +32,7 @@ module.exports = defineConfig({
       return config;
     },
     specPattern: "cypress/e2e/features/*.feature",
-    baseUrl: "https://www.saucedemo.com",
+    baseUrl: "http://zero.webappsecurity.com/",
     chromeWebSecurity: false,
     projectId: "aevzev"
 
